@@ -1,0 +1,54 @@
+:root {
+    --primary-color: rgb(105, 0, 196);
+    --secondary-color: rgb(238, 220, 255);
+    --dark-color: rgb(20, 2, 37);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+    background-color: var(--secondary-color);
+}
+.navbar {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+}
+.navbar-brand, .nav-link {
+    color: var(--secondary-color) !important;
+}
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+    color: var(--secondary-color);
+    padding: 100px 0;
+}
+.category-card {
+    transition: transform 0.3s;
+    background: linear-gradient(135deg, var(--secondary-color), white);
+}
+.category-card:hover {
+    transform: translateY(-10px);
+}
+.how-it-works {
+    background: linear-gradient(135deg, var(--secondary-color), white);
+}
+.testimonial-card {
+    background: linear-gradient(135deg, var(--secondary-color), white);
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cta-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+    color: var(--secondary-color);
+}
+.footer {
+    background: var(--dark-color);
+    color: var(--secondary-color);
+}
+.btn-custom {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+.btn-custom:hover {
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+}

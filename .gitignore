@@ -1,0 +1,20 @@
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive Files
+database/db.php
+
+# Node or Composer dependencies (if applicable)
+node_modules/
+vendor/
+
+# Temporary files
+*.tmp
+*.bak
+
+assets/profileimg/
